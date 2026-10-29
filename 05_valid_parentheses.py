@@ -1,6 +1,3 @@
-# Problem 5: Valid Parentheses Using a Stack
-# Check whether (), [] and {} are correctly matched and nested.
-
 s = input("Enter the brackets: ")
 
 stack = []
@@ -31,5 +28,4 @@ if len(stack) != 0:
 
 print(valid)
 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+
